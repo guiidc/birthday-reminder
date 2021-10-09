@@ -6,7 +6,7 @@ function App() {
   return (
     <main>
       <section className="container">
-        <h3>{ people.length } aniverśarios hoje</h3>
+        <h3>{ people.length } aniversários hoje</h3>
         <List people={ people }/>
         <button onClick={ () => setPeople([])}>
           Limpar
